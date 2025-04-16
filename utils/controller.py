@@ -11,16 +11,16 @@ def add_user(users_data: list) -> None:
 
 
 def remove_user(users_data: list[dict]) -> None:
-    user_name = input("Podaj imię znajomego do usuniecia: ")
+    user_name = input("Podaj imię znajomego do usunięcia: ")
     for user in users_data:
         if user["name"] == user_name:
             users_data.remove(user)
 
 
-def update_user(users_data:list[dict]) -> None:
-    user_name=input("Podaj imię znajomego do aktualizacji: ")
+def update_user(users_data: list[dict]) -> None:
+    user_name = input("Podaj imię znajomego do aktualizacji: ")
     for user in users_data:
         if user["name"] == user_name:
-            user["name"]=input("Podaje nowe imie znajomego: ")
-            user["location"]=input("Podaj nową miejscowość: ")
-            user["posts"]=int(input("Podaj nową liczbe postów: "))
+            user["name"] = input("Podaj nowe imię znajomego: ")
+            user["location"] = input("Podaj nową miejscowość: ")
+            user["posts"] = int(input("Podaj nową liczbę postów: "))
