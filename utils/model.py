@@ -10,3 +10,5 @@ users: list = [
     {"name": "Julia", "location": "Żyrardów", "posts": 50,
      'picture': 'https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg'},
 ]
+
+
